@@ -1,13 +1,10 @@
-
+import NavBar from "./components/NavBar"
 
 function App() {
-
   return (
-    <>
-
-      <h1 className="text-8xl font-bold">Vite + React</h1>
-
-    </>
+    <div>
+      <NavBar/>
+    </div>
   )
 }
 
